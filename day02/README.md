@@ -1,4 +1,5 @@
 # Taylor Swift Album Finder GUI
+In that GUI, a user will enter a month (maybe ttheir birth month) and find the corresponding Taylor Swift album.
 
 ## AI Model Used
 I used **Copilot AI model "claude sonnet 4.5"**
