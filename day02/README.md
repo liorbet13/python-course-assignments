@@ -54,5 +54,22 @@ can you increase the gui size so the album image would not be crropped at the bo
 #24. 
 Amazing! one last thing, can you remove the white frame? 
 [ AI couldnt do it since it required another package to make the frame transperent I decided to leave it as is and reveret that change]
+#25.
+can you adjust tthe code so it caan recieve 3 input mechanisms? [ gives me 5 options] 1 2 and 3 sound good 
+#26.
+[ an errror massage appears when i run the gui, i copy and pasted the massage] Whats thee problem: File "C:\Users\Lior Batat\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 3367, in __init__
+    Widget.__init__(self, master, 'label', cnf, kw)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Lior Batat\AppData\Local\Programs\Python\Python313\Lib\tkinter\__init__.py", line 2780, in __init__
+    self.tk.call(
+    ~~~~~~~~~~~~^
+        (widgetName, self._w) + extra + self._options(cnf))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[copilot fixed it by removing empty background color commands]
+#27.
+Thank you tthat's great! can you fixe tthe gui size so theresult  image isnt cropped froom the bottom?
+#28.
+perfect!
+
 
 ##Maybe I couldv'e done it in less prompts but I feel as if the AI understands me better when I tell it what I want in stages.
