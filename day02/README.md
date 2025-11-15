@@ -6,6 +6,25 @@ I used **Copilot AI model "claude sonnet 4.5"**
 ## Setup
 To use my gui I created a virtual enviorment venv in which copilot installed the library **"pillow"**
 
+## How to Run
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Run the program:**
+   ```bash
+   python taylor_swift_month.py
+   ```
+
+3. **Use the GUI:**
+   - Choose one of 3 input methods to enter your birth month
+   - Option 1: Type the month name and click "Find My Album"
+   - Option 2: Select from the dropdown menu and click "Go"
+   - Option 3: Click directly on a month button (Jan, Feb, etc.)
+   - Your Taylor Swift album and cover will be displayed!
+
 ---
 
 ## My Prompts
@@ -83,6 +102,12 @@ To use my gui I created a virtual enviorment venv in which copilot installed the
 29. Hi can you reorganize the lines in this file (README inside the day022 folder) so each number will be a line drop ( and style it using MMARKDOWN)?
 
 30. can you leave the typos though? change the restcan you leave the typos though? change the rest
+
+31. do yyou know how to create a requirements.txt for the dependencies declaration? i think in this file the only thing is the pillow library...
+
+32. can you add a little guide (explain what line you need to run) in th README.md file ?
+
+33. thanks!, now for the gui file, in the month typing field, can you enable the use of months without a capital leetter too? (make both August and august valid inputs for example)
 
 ---
 

@@ -41,7 +41,7 @@ def get_taylor_swift_album(month_source=None):
     if month_source:
         month_name = month_source
     else:
-        month_name = month_entry.get().strip()
+        month_name = month_entry.get().strip().capitalize()  # Capitalize first letter
     
     if month_name in month_to_album:
         album_name = month_to_album[month_name]
