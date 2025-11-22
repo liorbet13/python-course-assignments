@@ -33,3 +33,7 @@ htmlcov/
 *.egg-info/
 dist/
 build/
+
+# Runtime data / fetched content
+team_rosters/
+trying_stuff/
